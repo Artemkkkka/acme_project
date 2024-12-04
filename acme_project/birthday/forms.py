@@ -8,4 +8,4 @@ class BirthdayForm(forms.ModelForm):
         fields = '__all__' 
         widgets = {
             'birthday': forms.DateInput(attrs={'type': 'date'})
-        }     
+        }
